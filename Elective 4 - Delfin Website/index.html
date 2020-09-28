@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<meta name="viewport" content="width=device-width, 
+initial-scale=1">
+
+<style>
+body {
+  font-family: "Oswald";
+  font-size: 22px;
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("bgimage.jpg");
+ 
+
+
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image2 {
+  /* The image used */
+  background-image: url("bgimage2.jpg");
+  
+
+  
+  
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}.bg-image3 {
+  /* The image used */
+  background-image: url("bgimage3.jpg");
+  
+
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}.bg-image4 {
+  /* The image used */
+  background-image: url("bgimage4.jpg");
+  
+
+  
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}.bg-image5 {
+  /* The image used */
+  background-image: url("bgimage5.jpg");
+  
+ 
+
+  
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bg-image6 {
+  /* The image used */
+  background-image: url("bgimage6.jpg");
+  
+ 
+
+  
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.bg-image7 {
+  /* The image used */
+  background-image: url("bgimage7.jpg");
+  
+ 
+
+  
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0);  /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+  .bg-textinside {
+  background-color: rgb(0,0,0);  /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/
+  see-through */
+  height: 100%;
+ 
+}
+footer h3{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1A1A1C;
+    color: #fff;
+    font-size:16px;
+}
+
+
+
+.anchor h6 a{
+  color: white;
+  text-align: center;
+
+}
+.aboutauthor h1 {
+  color: white;
+  
+}
+
+.aboutauthor2 p {
+  color: white;
+  font-size: 18px;
+  
+}
+.logo img {
+  float:left;
+  
+}
+
+ h2{
+  float: left;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none
+}
+
+ p{
+  
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none
+
+ 
+  
+}
+
+img {
+  border-radius: 50%;
+  float:center;
+
+}
+
+  
+
+
+.navbar {
+  width: 1248px;
+  background-color: #1A1A1C;
+  position:fixed;
+  z-index: 2;
+
+ 
+}
+
+.navbar a {
+  float: left;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 28px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #3FB0AC;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #3FB0AC;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+  <!--navigation bar -->
+
+ 
+<div class="navbar">
+ 
+
+ <div class="logo"> <img src="logo.png" alt="Avatar" style="width:200px"></div>
+
+
+<a href="index.html">Home</a>
+ <a href="#offer">Offers</a>
+  <a href="#vid">Video</a>
+   
+  <div class="dropdown">
+    <button class="dropbtn">Bio
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#testi">Testimonial</a>
+      <a href="#educ">Education</a>
+      <a href="#me">About Author</a>
+      
+    </div>
+
+  </div> 
+   <a href="#page">About</a>
+
+</div>
+
+<!--bg front -->
+
+<div class="bg-text">
+  <h1>EzBeats Music</h1>
+  <p>Making Creative Music For You</p>
+</div> 
+<div class="bg-image"></div> 
+
+
+
+<!--offer -->
+
+<a name="offer"></a>
+<div class="bg-image2">
+  <div class="bg-textinside">
+  <h2>Offers</h2>
+  <br><br><br><br><br><br><br><br>
+<p>We offer Collaboration for making a beat and mastering to your music with our best Music Engineers. </p>
+<br>
+
+</div>
+  </div> 
+
+<!--video -->
+
+<a name="vid"></a>
+<div class="bg-image3">
+  <div class="bg-textinside">
+  <h2>Videos</h2>
+  <br><br><br>
+ 
+<p>
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/0rEnGUUJ5oA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/Mf6rjGY8os8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/Mq3NMKegIxM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/pinNLBnBRe8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/yG1rXSHXByk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center>
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/JE8WlIZddZw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/lk4D4bMu8uo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/inZPTIYaf6w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/rgaTLrZGlk0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="200" height="auto" src="https://www.youtube.com/embed/ueqZEnq8X8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</p>
+</div>
+
+
+<!--testmonials -->
+
+<a name="testi"></a>
+<div class="bg-image4">
+  <div class="bg-textinside">
+  <h2>Testimonial</h2>
+
+<br><br><br><br><br>
+<center><img src="ez.jpg" alt="Avatar" style="width:200px"></center>
+<p>''Music is an art that express our emotion,, </p>
+
+
+</div>
+</div> 
+
+<!--education-->
+
+<a name="educ"></a>
+<div class="bg-image5">
+  <div class="bg-textinside">
+  <h2>Education</h2>
+
+<br><br><br>
+
+
+<p>Elemantary - Cabisuculan Elementary School (CES) | Science City of Munoz Nueva Ecija | 2006-2010
+  <br>
+Secondary - Constancio Padilla National High School (CPNHS) | San Jose City Nueva Ecija | 2010-2014
+<br>
+Tertiary - Saint Augustine Foundation Colleges (SAFC) | San Jose City Nueva Ecija | 2014-2016
+<br>
+
+Tertiary - Core Gateway Colleges Inc. (CGCI) | San Jose City Nueva Ecija | 2017-2021
+<br><br>
+Certificate:
+<br>
+* Computer Programming NCIV
+<br>
+* Microsoft.Net NCIV
+<br>
+* Microsoft SQL NCIV
+<br>
+</p> 
+
+</div>
+</div> 
+
+<!--my info -->
+
+<a name="me"></a>
+<div class="bg-image6">
+  <div class="bg-textinside">
+  <h2>About Author</h2>
+
+<br><br><br><br>
+<center><img src="ez.jpg" alt="Avatar" style="width:200px">
+  <div class="aboutauthor"><h1>ELEAZAR DELFIN</h1></div></center>
+  <div class="aboutauthor2">
+<p>Age: 23 Years Old
+  <br>
+Birthday: January 21 1998
+<br>
+Address: San Jose City Nueva Ecija 
+<br>
+Skills/Hobbies: Computer Literate, Hardware and Software Trouble Shooting, Coding, Audio Mixing using Fruity Loops Studio (FL20), Singing, Casual Gaming.  
+<br>
+</p> 
+</div>
+</div>
+</div> 
+
+<!--about page-->
+
+<a name="page"></a>
+<div class="bg-image7">
+  <div class="bg-textinside">
+  <h2>About This Page</h2>
+<br><br><br><br><br>
+<p>This page is about music making with the help of our best audio engineer giving the best and unique kind of music. </p>
+<br>
+<p>Contact Us: <a href="mailto:ezz.razaele21@gmail.com?body=Hello there i want to collab with your team">Email us on Gmail</a></p>
+</div>
+</div> 
+
+
+<!--back home -->
+
+ <div class="anchor">
+<center><h6><a href="index.html">Back to home</a></h6></center>
+</div>
+
+
+<
+
+
+
+
+<body style="background-color:#173E43;">
+ <footer>
+        <h3>© 2020 Ezbeats Music</h3>
+    </footer>
+
+</body>
+</html> 
